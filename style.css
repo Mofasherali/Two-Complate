@@ -1,0 +1,289 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&family=Montserrat:wght@300;400;700&family=Poppins&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+    /* Box-sizing Used by the browser to calculate the widths and heights of the elements */
+    box-sizing: border-box;
+    background-color:  #eee3e3;;
+}
+/* header style */
+header{
+    margin-top: 50px;
+}
+.logo{
+    color: black;
+    font-family: Poppins;
+    font-size: 1.5em;
+    font-weight: 700;
+    position: relative;
+    left: 130px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    right: 150px;
+}
+ul li a {
+    font-family: Poppins;
+    font-size: 1.0em;
+    font-weight:bold;
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+}
+/* End header style */
+
+/* Influence style */
+.influencer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.influencer-containet {
+    width: 580px;
+    height: 270px;
+}
+
+.influencer-detail {
+    margin: 20px 0px 30px 0px;
+}
+
+.influencer-title {
+    font-size: 2.5em;
+    font-weight: 700;
+    font-family: Poppins;
+}
+
+.influencer-img img {
+    width: 440px;
+    height: 414px;
+    position: relative;
+    top: 50px;
+}
+
+.influencer-button {
+    color: #56ce27;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Poppins;
+    text-decoration: none;
+    background-color: #001a33;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 0px;
+}
+/* End Influence style */
+
+/* Collection Style */
+.hot-collection{
+    margin-top: 100px;
+}
+.collections{
+    position: relative;
+            left: 120px;
+            width: 1040px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            row-gap: 30px;
+            justify-content: center;
+            align-items: center;
+            column-gap: 30px;
+            margin-top: 40px;
+}
+.header-title{
+    margin: 5px;
+    font-family: Poppins;
+    text-align: center;
+    font-size: 28px;
+}
+
+.collection-item{
+            width: 300px;
+            height: 476px;
+            text-align: center;
+            background-color: #ffffff;
+            border-radius: 5px;
+}
+
+.collections .collection-banner img{
+    width: 250px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+/* Rating style */
+.hot-color{
+    color: orange;
+}
+.rating-info{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.fas.fa-star.filled{
+    color: orange;
+}
+.fas.fa-star-half-alt.empty{
+    color: orange;
+}
+.collection-button{
+    /* background-color: blue; */
+    float: right;
+    text-align: end;
+}
+.tiny-button{
+        position: relative;
+        left: 400px;
+        color: #001a33;
+        padding: 10px 40px;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: Poppins;
+        text-decoration: none;
+        cursor: pointer;   
+}
+/* End Rating style */
+/* End Collection Style */
+
+
+
+
+/* Featured style */
+.featured-section{
+        position: relative;
+        top: 50px;
+}
+.featured{
+        width: 1110px;
+        height: 270px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        position: relative;
+        left: 80px;
+}
+
+.featured img{
+        width: 350px;
+        height: 250px;
+}
+.featured-container{
+    width: 610px;
+    height: 224px;
+    position: relative;
+    left: 30px;
+}
+.featured-title{
+        color: black;
+        font-family: Poppins;
+        font-weight: bold;
+        font-size: 30px;
+}
+.featured-button{
+        color: #56ce27;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: Poppins;
+        text-decoration: none;
+        background-color: #001a33;
+        cursor: pointer;
+        margin-top: 0px;
+}
+
+/*  End Featured style */
+
+
+
+
+/* footer */
+footer{
+    position: relative;
+    top: 100px;
+    height: 270px;
+    background-color: #0A0826;
+}
+.footer-details{
+    text-align: center;
+    color: #56ce27;
+    font-family: Poppins;
+    padding: 40px;
+}
+.footer-header{
+    margin-bottom: 10px;
+}
+.footer-socialmedia{
+    text-align: center;
+    margin-top: 20px;
+}
+.fas {
+    padding: 8px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fab {
+    padding: 8px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa-instagram {
+    background-color: #433d3d;
+    color: white;
+  }
+.fa-basketball-ball {
+    background-color: #433d3d;
+    color: white;
+  }
+.fa-twitter {
+    background-color: #433d3d;
+    color: white;
+  }
+.fa-youtube {
+    background-color: #433d3d;
+    color: white;
+  }
+/* End footer */
+
+/* Media Quary */
+/* header */
+@media only screen and (max-width:688px) {
+    
+}
+/* End header */
+/* //---------- Media Quary-------// */
+
+/* header */
+/* @media only screen and (max-width:688px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+    } 
+    .logo{
+        width: 688px;
+    }
+    ul{
+        width: 688px;
+    }
+} */
+/* End header */
+/* //---------- End Media Quary-------// */
+
+
+
+
+
+
