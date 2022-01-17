@@ -116,9 +116,9 @@ ul li a {
 }
 
 .collections .collection-banner img{
-    width: 250px;
+    width: 275px;
     height: 200px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 /* Rating style */
@@ -143,7 +143,7 @@ ul li a {
 }
 .tiny-button{
         position: relative;
-        left: 400px;
+        left: 435px;
         color: #001a33;
         padding: 10px 40px;
         font-size: 16px;
@@ -210,6 +210,7 @@ ul li a {
 footer{
     position: relative;
     top: 100px;
+    width: 1263px;
     height: 270px;
     background-color: #0A0826;
 }
